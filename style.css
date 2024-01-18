@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 850px;
+    height: 100%;
+    border: 2px solid grey;
+    box-shadow: 0px 1px 4px black;
+    display: flex;
+}
+/* personal information section ************************************************************************************* */
+.personal-info{
+    background-color: #bbbbbb;
+    margin: 7px 5px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.self-info{
+    background-color: rgb(13 74 94 / 99%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.self-info img{
+    width: 62%;
+}
+.self-info h2 ,a{
+    color: white;
+    text-decoration: none;
+}
+.links{
+    text-align: center;
+    width: 100%;
+    margin: 7px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+    font-size: 0.65rem;
+}
+.links a img{
+    width: 14%;
+    margin: 0px 5px;
+}
+
+.contact-info{
+    margin-top : 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info h2{
+    font-weight:900;
+    text-align: center;
+    
+}
+.para1{
+    margin: 21px 20px
+}
+.para1 h4{
+    font-size: 0.93rem;
+}
+.para1 p{
+    font-size: 0.75rem;
+    color: #555555;
+}
+
+
+.skills-container{
+    margin-top: 35px;
+}
+
+.skill-heading h2{
+    font-weight:900;
+    text-align: center;
+    
+}
+.skill-list{
+    margin: 13px 0px 0px 20px;
+}
+.skills{
+    margin: 27px 0px;
+}
+.outer{
+    width: 80%;
+    height: 6.5px;
+    background-color: white;
+    border-radius: 20px;
+}
+.inner{
+    height: 6.5px;
+    background-color: rgb(13 74 94 / 99%);
+    border-radius: 20px;
+}
+
+.progress-1{
+    width: 91%;
+}
+.progress-2{
+    width: 80%;
+}
+.progress-3{
+    width: 70%;
+}
+.progress-4{
+    width: 85%;
+}
+.progress-5{
+    width: 80%;
+}
+
+
+
+.certificate{
+    margin-top: 35px;
+}
+.certificate h2{
+    font-weight:900;
+    text-align: center;
+
+}
+.certificate-details{
+    margin: 21px 20px;
+}
+
+.para-2{
+    margin: 15px 0px;
+}
+
+
+
+
+
+
+/* Education information section  *****************************************************************************/
+.education-info{
+    width: 60%;
+    margin: 7px 5px;
+    padding: 16px;
+}
+
+.line1{
+    height: 2px;
+   background-color:rgb(13 74 94 / 99%) ;
+}
+.obj-para{
+    margin: 10px 0px;
+    font-size: 0.85rem;
+}
+.heading{
+    color: rgb(13 74 94 / 99%);
+}
+
+/* experience section------------------------- */
+
+.work-section{
+    margin-bottom: 25px;
+}
+.work-detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.work-detail img{
+    width: 4%;
+}
+.company-detail{
+    width: 60%;
+}
+.duration{
+    width: 27%;
+}
+.work-info{
+    margin: 7px 29px;
+    font-size: 0.85rem;
+}
+
+/* Project section ------------------- */
+
+.project-detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.project-tag{
+    width: 91%;
+}
+
+/* edication section-------------------------- */
+
+.education-section{
+    margin-top: 25px;
+}
+
+.line2{
+    width: 80%;
+    margin: auto;
+    height: 2px;
+    background-color: black;
+}
