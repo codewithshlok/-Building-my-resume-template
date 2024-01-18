@@ -11,6 +11,3 @@ One can use the below given template for creating this project.
 - HTML
 - CSS
 
-### Expected Output
-
-![output image](./output/ResumetemplateOutput1.png)
