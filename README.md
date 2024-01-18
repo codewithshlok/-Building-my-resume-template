@@ -13,4 +13,4 @@ One can use the below given template for creating this project.
 
 ### Expected Output
 
-![output image](./output/ResumeTemplateOutput1.png)
+![output image](./output/ResumetemplateOutput1.png)
